@@ -1,0 +1,37 @@
+{
+	"folders": [
+		{
+			"path": "Ansible-Website"
+		},
+		{
+			"path": "Ansible-Provision"
+		},
+		{
+			"path": "Ansible-Inventory"
+		},
+		{
+			"path": "Ansible-Labextra"
+		},
+		{
+			"path": "Ansible-SNOW"
+		},
+		{
+			"path": "Ansible-Config"
+		},
+		{
+			"path": "Ansible-Networking"
+		},
+		{
+			"path": "Ansible-Inventory2"
+		}
+	],
+	"settings": {
+		"githubPullRequests.remotes": [
+			"origin",
+			"upstream",
+			"adworjan",
+			"lynndixon",
+			"shadowman-lab"
+		]
+	}
+}

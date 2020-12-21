@@ -1,0 +1,14 @@
+# my.ovirt.yml
+plugin: redhat.rhv.ovirt
+ovirt_query_filter:
+  search: 'os=vyos OR os=cisco OR name=report.shadowman.dev OR name=tower.shadowman.dev'
+keyed_groups:
+  - key: os_type
+    prefix: 'os'
+  - key: tags
+    prefix: 'tag'
+ovirt_hostname_preference:
+  - name
+  - fqdn
+compose:
+  ansible_host: devices["eth0"][0]
