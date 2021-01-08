@@ -1,5 +1,6 @@
 # openshift.yml
 plugin: redhat.openshift.openshift
 connections:
-  - namespaces:
-    - default
+  - host: "{{ openshift_fqdn }}"
+    api_key: "{{ openshift_api }}"
+    verify_ssl: false
