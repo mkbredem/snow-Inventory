@@ -1,0 +1,5 @@
+# openshift.yml
+plugin: redhat.openshift.openshift
+connections:
+  - namespaces:
+    - default
