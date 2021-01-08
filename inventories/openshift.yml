@@ -1,5 +1,6 @@
 # openshift.yml
 plugin: redhat.openshift.openshift
 connections:
-  - namespaces:
-    - default
+  - host: "{{ openshift_fqdn }}"
+  - password: "{{ openshift_password }}"
+  - username: "{{ openshift_user }}"
