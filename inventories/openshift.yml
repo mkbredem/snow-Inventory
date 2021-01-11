@@ -2,6 +2,5 @@
 plugin: kubernetes.core.openshift
 connections:
   - host: "{{ openshift_fqdn }}"
-    username: "{{ openshift_user }}"
-    password: "{{ openshift_password }}"
+    api_key: "{{ openshift_api }}"
     verify_ssl: false
