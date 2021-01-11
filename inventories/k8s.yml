@@ -1,6 +1,0 @@
-# openshift.yml
-plugin: kubernetes.core.k8s
-connections:
-  - host: "{{ openshift_fqdn }}"
-    api_key: "{{ openshift_api }}"
-    verify_ssl: false
