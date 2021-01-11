@@ -2,5 +2,6 @@
 plugin: redhat.openshift.openshift
 connections:
   - host: "{{ openshift_fqdn }}"
-    api_key: "{{ openshift_api }}"
+    username: "{{ openshift_user }}"
+    password: "{{ openshift_password }}"
     verify_ssl: false
