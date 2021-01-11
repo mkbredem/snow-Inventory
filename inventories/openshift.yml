@@ -1,5 +1,5 @@
 # openshift.yml
-plugin: kubernetes.core.openshift
+plugin: redhat.openshift.openshift
 connections:
   - host: "{{ openshift_fqdn }}"
     api_key: "{{ openshift_api }}"
