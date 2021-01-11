@@ -4,7 +4,7 @@ collections:
 
   - name: redhat.rhv
 
-  - name: redhat.openshift
+  - name: kubernetes.core
 
   - name: servicenow.servicenow
     source: https://towerhub.shadowman.dev/api/galaxy/content/community/
