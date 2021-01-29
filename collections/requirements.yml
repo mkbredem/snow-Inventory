@@ -1,7 +1,5 @@
 collections:
 
-  - name: redhat.satellite
-
   - name: redhat.rhv
 
   - name: servicenow.servicenow
