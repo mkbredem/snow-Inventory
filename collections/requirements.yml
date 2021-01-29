@@ -1,6 +1,4 @@
 collections:
 
-  - name: redhat.rhv
-
   - name: servicenow.servicenow
     source: https://towerhub.shadowman.dev/api/galaxy/content/community/
