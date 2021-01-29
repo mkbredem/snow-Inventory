@@ -10,5 +10,3 @@ keyed_groups:
 ovirt_hostname_preference:
   - name
   - fqdn
-compose:
-  ansible_host: devices["eth0"][0]
