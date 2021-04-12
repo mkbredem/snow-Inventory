@@ -1,0 +1,12 @@
+# my.SNOW.yml
+plugin: servicenow.itsm.now
+ansible_host_source: host_name
+inventory_hostname_source: host_name
+columns:
+  - host_name
+  - name
+  - fqdn
+  - ip_address
+group_by:
+  os:
+  classification:
