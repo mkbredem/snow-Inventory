@@ -9,6 +9,7 @@ columns:
   - ip_address
   - os
   - classification
+  - sys_id
 group_by:
   os:
   classification:
