@@ -1,2 +1,0 @@
-ovirt_insecure: true
-plugin: redhat.rhv.ovirt
