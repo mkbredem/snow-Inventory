@@ -17,4 +17,4 @@ ovirt_hostname_preference:
 - name
 - fqdn
 ovirt_insecure: true
-plugin: redhat.rhv.ovirt
+plugin: ovirt
