@@ -1,7 +1,7 @@
 ---
 plugin: ovirt.ovirt.ovirt
 ovirt_query_filter:
-  search: 'os=vyos OR os=cisco OR name=report.shadowman.dev OR name=tower.shadowman.dev'
+  search: 'os=vyos OR os=cisco OR name=report.shadowman.dev OR name=aap.shadowman.dev'
 keyed_groups:
   - key: os_type
     prefix: 'os'
