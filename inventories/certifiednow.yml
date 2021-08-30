@@ -12,4 +12,6 @@ columns:
   - sys_id
 group_by:
   os:
+    excludes:
+      - windows_2016x64
   classification:
