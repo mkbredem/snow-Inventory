@@ -2,6 +2,8 @@
 plugin: servicenow.itsm.now
 ansible_host_source: host_name
 inventory_hostname_source: host_name
+compose:
+  ip_addr: ip_address
 columns:
   - host_name
   - name
