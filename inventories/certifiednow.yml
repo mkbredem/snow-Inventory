@@ -10,7 +10,7 @@ columns:
   - classification
   - sys_id
 compose:
-  ip_addr: ip_address
+  ip_addr: ip_address if ip_address else None
   ansible_host: host_name
 keyed_groups:
   - key: os
