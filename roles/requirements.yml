@@ -1,2 +1,1 @@
-- src: git@github.com:shadowman-lab/Ansible-IaaC.git
-  scm: git
+- src: https://github.com/shadowman-lab/Ansible-IaaC
