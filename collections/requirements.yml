@@ -1,7 +1,4 @@
 collections:
 
-  - name: servicenow.servicenow
-    source: https://towerhub.shadowman.dev/api/galaxy/content/community/
-
   - name: servicenow.itsm
     
