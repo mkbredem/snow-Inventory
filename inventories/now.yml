@@ -1,5 +1,6 @@
 # my.SNOW.yml
 ANSIBLE_INVENTORY_ENABLED: "now.py"
+plugin: now
 selection_order: [host_name,name]
 fields: [host_name,sys_class_name,name,os,os_version,ram,cpu_core_count]
 keyed_groups:
