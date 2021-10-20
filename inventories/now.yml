@@ -1,5 +1,5 @@
 # my.SNOW.yml
-plugin: servicenow.servicenow.now
+plugin: now
 selection_order: [host_name,name]
 fields: [host_name,sys_class_name,name,os,os_version,ram,cpu_core_count]
 keyed_groups:
