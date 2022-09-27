@@ -1,5 +1,3 @@
 collections:
 
-  - name: servicenow.servicenow
-
-  - name: servicenow.inventory_hostname_source
+  - name: servicenow.itsm
