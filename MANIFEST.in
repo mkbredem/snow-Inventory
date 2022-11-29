@@ -1,0 +1,6 @@
+include README.md
+include .DS_Store
+include *.code-workspace
+recursive-exclude .git *
+recursive-include collections *.yml
+recursive-include inventories *
