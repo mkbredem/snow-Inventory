@@ -1,8 +1,7 @@
 # my.SNOW.yml
 plugin: servicenow.itsm.now
 inventory_hostname_source: host_name
-query:
-  - name: = 'attacker.shadowman.dev'
+sysparm_query: "nameSTARTSWITHattacker"
 enhanced: true
 columns:
   - host_name
