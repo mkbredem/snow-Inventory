@@ -1,7 +1,6 @@
 # my.SNOW.yml
 plugin: servicenow.itsm.now
 inventory_hostname_source: host_name
-sysparm_query: "nameLIKEattacker"
 enhanced: true
 columns:
   - host_name
